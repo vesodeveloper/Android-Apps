@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/ch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play  Really Slow Motion - Legendary" />
+
+        <CheckBox
+            android:id="@+id/ch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause Really Slow Motion - Legendary" />
+
+        <VideoView
+            android:id="@+id/vid1"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:baselineAligned="false" />
+
+        <Button
+            android:id="@+id/Video1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Really Slow Motion - Legendary" />
+
+        <CheckBox
+            android:id="@+id/ch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play First Line of Code: Linus Torvalds" />
+
+        <CheckBox
+            android:id="@+id/ch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pause First Line of Code: Linus Torvalds" />
+
+        <VideoView
+            android:id="@+id/vid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/Video2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Line of Code: Linus Torvalds" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
