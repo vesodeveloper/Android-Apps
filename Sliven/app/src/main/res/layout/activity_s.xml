@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="461dp"
+            android:layout_height="202dp"
+            app:srcCompat="@drawable/sliven_4380" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Сливен е град в Югоизточна България, разположен в близост до Ямбол и Нова Загора. Той е осмият по големина в страната и е административен център на община Сливен. Сливен е известен като Градът на стоте войводи, свързани с хайдушкото движение. " />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            app:srcCompat="@drawable/reznato2" />
+
+        <Button
+            android:id="@+id/tohistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="към историята" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
