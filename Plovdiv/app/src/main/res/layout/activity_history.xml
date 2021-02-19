@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333232"
+    tools:context=".HistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Античност" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="През 342 г. пр.н.е. селището е завладяно от македонския цар Филип II, който му дава своето име – Филипополис, използвано в различни варианти и до днес. По това време градът е обграден със здрави крепостни стени, но към 320 г. пр.н.е. Одриското царство възстановява самостоятелността си." />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            app:srcCompat="@drawable/fff" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="След разделянето на Римската империя в края на IV век Филипопол остава в Източната Римска империя, в границите на която е през по-голямата част от следващото хилядолетие." />
+
+        <WebView
+            android:id="@+id/wview2"
+            android:layout_width="match_parent"
+            android:layout_height="265dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
